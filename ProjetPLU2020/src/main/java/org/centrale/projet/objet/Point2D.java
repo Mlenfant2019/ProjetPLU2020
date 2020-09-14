@@ -12,7 +12,7 @@ package org.centrale.projet.objet;
 public class Point2D {
     private int x;
     private int y;
-
+    
     /**
      * Créer un Point2D à partir de deux paramètres
      * @param x int

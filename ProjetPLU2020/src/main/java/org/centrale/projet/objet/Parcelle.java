@@ -110,7 +110,7 @@ public class Parcelle {
      * Modifier le pourcentage constructible de la Parcelle
      * @param pConstructible int
      */
-    public void getpConstructible(int pConstructible){
+    public void setpConstructible(int pConstructible){
         this.pConstructible = pConstructible;
     }
     
@@ -134,7 +134,7 @@ public class Parcelle {
     /**
      * Affiche les caracteristiques de la Parcelle
      */    
-    public void Affiche(){
+    public void affiche(){
         System.out.println(this.toString());
-    }
+    } 
 }
