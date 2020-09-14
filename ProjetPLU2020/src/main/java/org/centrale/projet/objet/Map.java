@@ -16,6 +16,7 @@ public class Map {
     
     /**
      * Cree une Map de 4 parcelles aleatoires
+     * (la verification d'unicite est a faire, Maderick, si tu arrives a configurer ton systeme...)
      */    
     public Map creeMapAlea(){
         Parcelle[] map = new Parcelle[4];
